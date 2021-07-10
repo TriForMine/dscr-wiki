@@ -10,8 +10,9 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'triformine', // Usually your GitHub org/user name.
-  projectName: 'dscr-wiki', // Usually your repo name.
+  organizationName: 'triformine',
+  projectName: 'dscr-wiki',
+  trailingSlash: true,
   themeConfig: {
     navbar: {
       title: 'Discordeno Separate Cache Rest',
@@ -77,7 +78,6 @@ module.exports = {
       },
     ],
   ],
-  trailingSlash: true,
   plugins: [
     '@docusaurus/plugin-ideal-image'
   ],
