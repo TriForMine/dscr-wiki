@@ -6,7 +6,7 @@ module.exports = {
   title: 'Discordeno Separate Cache Rest',
   tagline: 'Discordeno Best Lib',
   url: 'https://triformine.github.io/',
-  baseUrl: '/',
+  baseUrl: '/dscr-wiki/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
