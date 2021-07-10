@@ -11,7 +11,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'triformine', // Usually your GitHub org/user name.
-  projectName: 'discordeno-separate-cache-rest', // Usually your repo name.
+  projectName: 'dscr-wiki', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Discordeno Separate Cache Rest',
@@ -77,15 +77,8 @@ module.exports = {
       },
     ],
   ],
+  trailingSlash: true,
   plugins: [
-    [
-      '@docusaurus/plugin-sitemap',
-      {
-        changefreq: 'weekly',
-        priority: 0.5,
-        trailingSlash: true,
-      },
-    ],
     '@docusaurus/plugin-ideal-image'
   ],
 };
