@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Discordeno Separate Cache Rest',
+  title: 'Discordeno Separate Cache Tcp',
   tagline: 'Discordeno Best Lib',
   url: 'https://triformine.github.io/',
   baseUrl: '/dscr-wiki/',
@@ -15,7 +15,7 @@ module.exports = {
   trailingSlash: true,
   themeConfig: {
     navbar: {
-      title: 'Discordeno Separate Cache Rest',
+      title: 'Discordeno Separate Cache Tcp',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -28,7 +28,7 @@ module.exports = {
           label: 'Tutorial',
         },
         {
-          href: 'https://github.com/triformine/discordeno-separate-cache-rest',
+          href: 'https://github.com/triformine/discordeno-separate-cache-tcp',
           label: 'GitHub',
           position: 'right',
         },
